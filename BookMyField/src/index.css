@@ -1,0 +1,273 @@
+/* Toatify CSS */
+
+.Toastify__toast {
+  font-size: 16px;
+
+  line-height: 1.2;
+
+  padding: 10px 20px;
+ 
+  color: white;
+}
+
+.Toastify__toast--info {
+  background-color: #2196F3;
+  /* Customize background color for info toasts */
+}
+
+.Toastify__toast--success {
+  background-color: #4CAF50;
+  /* Customize background color for success toasts */
+}
+
+.Toastify__toast--error {
+  background-color: #F44336;
+  /* Customize background color for error toasts */
+  color: white;
+  /* Ensure text is readable */
+  border-radius: 5px;
+  /* Add border radius for a smoother look */
+}
+
+
+
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.6;
+}
+
+.app {
+  text-align: center;
+  overflow-x: hidden;
+  /* Prevent horizontal scroll caused by large images */
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #008B8B;
+  color: white;
+  padding: 10px 20px;
+}
+
+/* Left-aligned Section */
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+/* Right-aligned Section */
+.navbar-right {
+  display: flex;
+  gap: 15px;
+}
+
+/* Common Link Styling */
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.brand-icon {
+  width: 40px;
+  height: 40px;
+  margin-left: 0px;
+  vertical-align: middle;
+}
+
+/* Hero Section */
+.hero {
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+.hero h2 {
+  color: #006666;
+}
+
+/* Slider Section */
+.slider-container {
+  position: relative;
+  max-width: 100%;
+  margin: 20px 0;
+}
+
+.swiper-container {
+  width: 100%;
+  height: auto;
+}
+
+.slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  position: relative;
+}
+
+.turf-image {
+  width: 100%;
+  max-height: 600px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.turf-info {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.turf-info h2 {
+  margin: 0;
+  color: #28a745;
+}
+
+.turf-info p {
+  margin: 5px 0;
+  color: white;
+}
+
+/* Welcome Section */
+.welcome,
+.facilities {
+  padding: 20px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.welcome button,
+.facilities button {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.welcome button:hover,
+.facilities button:hover {
+  background: #218838;
+}
+
+.welcome h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+}
+
+/* Sport Types Section */
+.sport-types {
+  background: #f9f9f9;
+  padding: 1px 20px;
+  margin-bottom: 20px;
+}
+
+.sport-types h2 {
+  font-size: 30px;
+  color: #006666;
+  margin-bottom: 20px;
+}
+
+.sport-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sport-item {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.sport-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.sport-item h3 {
+  font-size: 22px;
+  color: #333;
+}
+
+.sport-item p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.sport-item button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sport-item button:hover {
+  background-color: #218838;
+}
+
+/* Footer */
+.footer {
+  background: #008B8B;
+  color: white;
+  padding: 1px 0;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.footer p {
+  color: white;
+}
+
+
+/* Position the scroll arrow on the right side of the screen */
+.scroll-arrow {
+  position: fixed;
+  right: 10px;
+  font-size: 30px;
+  color:lightgrey;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 1000;
+  transition: color 0.3s, top 0.3s; 
+}
+.scroll-arrow:hover {
+  color:#008B8B;
+}

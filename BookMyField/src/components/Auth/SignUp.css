@@ -1,0 +1,138 @@
+/* Common container for both SignUp and Login */
+.signup-container, .login-container {
+  height: 78vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  position: relative; /* Ensure footer can be positioned at the bottom */
+  flex-direction: column; /* Allow content and footer to be stacked vertically */
+}
+
+/* Form box styling for both pages */
+.login-box {
+  background-color: rgba(255, 255, 255, 0.8); /* Light transparent background for the form box */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 57px;
+  
+}
+
+.signup-box {
+  background-color: rgba(255, 255, 255, 0.8); /* Light transparent background for the form box */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  margin-top: 200px;
+  margin-bottom: 50px;
+
+  /* flex-direction: column;
+  align-items: center; */
+}
+
+/* Heading style for both SignUp and Login */
+h2 {
+  text-align: center;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  margin-bottom: 20px;
+}
+
+/* Form layout */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+div {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+/* Label styling */
+label {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+/* Input styling */
+input {
+  width: 80%;
+  padding: 12px 40px 12px 15px; /* Padding for text and icon */
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #0066cc;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  height: 5px;
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+/* Error message styling */
+.error {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Button styling */
+button {
+  padding: 10px 20px;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0055a5;
+}
+
+/* Icon styling inside the input fields */
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #777;
+}
+
+/* For "Sign Up" link */
+p {
+  text-align: center;
+  color: #333;
+  font-size: 14px;
+}
+
+p button {
+  background: none;
+  border: none;
+  color: #0066cc;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+p button:hover {
+  color: #0055a5;
+}
+

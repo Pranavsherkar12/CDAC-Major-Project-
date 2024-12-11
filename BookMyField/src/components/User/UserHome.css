@@ -1,0 +1,237 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .app {
+    text-align: center;
+    overflow-x: hidden;
+    /* Prevent horizontal scroll caused by large images */
+  }
+  
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: #28a745; */
+    background: #008B8B;
+    color: white;
+    padding: 10px 20px;
+  
+  }
+  
+  /* Left-aligned Section */
+  .navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* Space between the website name and links */
+  
+  }
+  
+  
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Right-aligned Section */
+  .navbar-right {
+    display: flex;
+    gap: 15px;
+    /* Space between the links */
+  }
+  
+  /* Common Link Styling */
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  .brand-icon {
+    width: 40px;
+    /* Adjust the size of the icon */
+    height: 40px;
+    margin-left: 0px;
+    /* Add spacing between the text and icon */
+    vertical-align: middle;
+    /* Align the icon with the text */
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .hero h2 {
+    /* color: #28a745; */
+    color: #006666;
+  }
+  
+  /* Slider Section */
+  .slider-container {
+    position: relative;
+    max-width: 100%;
+    margin: 20px 0;
+  }
+  
+  .swiper-container {
+    width: 100%;
+    height: auto;
+  }
+  
+  .slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    position: relative;
+  }
+  
+  .turf-image {
+    width: 100%;
+    /* Ensure the image takes the full width */
+    max-height: 600px;
+    /* Set a max height to maintain aspect ratio */
+    object-fit: cover;
+    /* Crop the image to fit the container */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .turf-info {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    /* Add a translucent background for text */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .turf-info h2 {
+    margin: 0;
+    color: #28a745;
+  }
+  
+  .turf-info p {
+    margin: 5px 0;
+  }
+  
+  /* Welcome Section */
+  .welcome,
+  .facilities {
+    padding: 20px;
+    background: white;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .welcome button,
+  .facilities button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .welcome button:hover,
+  .facilities button:hover {
+    background: #218838;
+  }
+  
+  /* Sport Types Section */
+  .sport-types {
+    background: #f9f9f9;
+    padding: 1px 20px;
+    margin-bottom: 20px;
+  }
+  
+  .sport-types h2 {
+    font-size: 30px;
+    color: #006666;
+    margin-bottom: 20px;
+  }
+  
+  .sport-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .sport-item {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .sport-item img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .sport-item h3 {
+    font-size: 22px;
+    color: #333;
+  }
+  
+  .sport-item p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .sport-item button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .sport-item button:hover {
+    background-color: #218838;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #008B8B;
+    color: white;
+    padding: 1px 0;
+    justify-content: center;
+  }
+  
+                            /* Turf page */
+  
+  
+  
+  
+  
+                            
+  
+  
+  
